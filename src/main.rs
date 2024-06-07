@@ -14,9 +14,9 @@ fn main(){
         _ => String::from("Lost"),
     };
     println!("System Name: {}", system);
-    println!("메모리 총량: {:.1} GB", togb(sys.total_memory()));
-    println!("사용중인 메모리: {:.1} GB", togb(sys.used_memory()));
-    
+    println!("Memory: {:.1} GB", togb(sys.total_memory()));
+    println!("Used: {:.1} GB", togb(sys.used_memory()));
+
     // println!("요약 {:.1}/{:.1} GB", togb(sys.used_memory()), togb(sys.total_memory()));
 
     
